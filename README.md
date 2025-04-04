@@ -11,4 +11,4 @@ The output includes a filtered .haplo.gz file and a file containing the removed 
 
 Note its written in python2 
 
-python script.py refeernce_bim haplofile output_name problem_out_file sample_name
+python script.py reference_bim haplofile output_name problem_out_file sample_name

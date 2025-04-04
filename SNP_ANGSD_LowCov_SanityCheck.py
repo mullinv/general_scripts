@@ -40,7 +40,7 @@ def main(input1, input2, output_name, problem_out, sample_name):
             dictionary_major[bim_major] = bim_major
             dictionary_minor[bim_minor] = bim_minor
 
-    # file1 will be the haplo file from ANGSD - individual
+    # file2 will be the haplo file from ANGSD - individual
     with gzip.open(input2 , "r") as file2:
         for line in file2:
             if not line.startswith('chr'):
